@@ -149,11 +149,15 @@ button{
     font-size: 48px;
     margin-left: 145px;
     position: absolute;
-    top: 34  px;
+    top: 34px;
 
 }
 #goBackIcon{
     color: black;
     background-color: red;
     cursor: pointer;
+}
+#getText{
+    color: white;
+    margin-left: 350px;
 }
