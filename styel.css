@@ -24,6 +24,8 @@ body{
     border-radius: 50px 50px;
     padding: 9px 18px;
     cursor: pointer;
+    height: 40px;
+    margin-right: 10px
 }
 #listForm{
     height: 188px;
@@ -160,4 +162,17 @@ button{
 #getText{
     color: white;
     margin-left: 350px;
+}
+#newDivForCard{
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#combo{
+    display: flex;
 }
